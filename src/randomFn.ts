@@ -1,3 +1,3 @@
-export const randomFn = (text: string | number) => {
+export const randomFn = (text: string) => {
   console.log(text);
 }
