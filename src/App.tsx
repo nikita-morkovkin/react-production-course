@@ -5,12 +5,13 @@ import AboutPageLazy from "./pages/AboutPage/AboutPageLazy";
 import MainPageLazy from "./pages/MainPage/MainPageLazy";
 import './styles/index.scss';
 import useTheme from "./components/Theme/UseThemeHook/useTheme";
+import {classNames} from "./helpers/classNames/classNames";
 
 const App = () => {
   const {theme, toggleTheme} = useTheme();
 
   return (
-    <div className={`app ${theme}`}>
+    <div className={classNames('app', {}, [theme])}>
       <h1>React + TS + Webpack</h1>
 
       <Counter />
