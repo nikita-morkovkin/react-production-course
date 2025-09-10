@@ -1,0 +1,31 @@
+@use 'reset';
+@use 'variables/global';
+@use 'themes/normal';
+@use 'themes/dark';
+
+.app {
+  font: var(--font-m);
+
+  background-color: var(--background-color);
+  color: var(--primary-color);
+
+  min-height: 100vh;
+}
+
+.button-switch {
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  font-weight: bold;
+  margin: 20px;
+  border-radius: 8px;
+  transition-duration: 0.3s;
+
+  &:hover {
+    background-color: darkorange;
+  }
+}

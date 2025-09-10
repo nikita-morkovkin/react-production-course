@@ -1,9 +1,13 @@
 import {useContext} from "react";
-import {ThemeContext} from "../ThemeContext/ThemeContext";
-import {LOCAL_STORAGE_THEME_KEY} from "../ThemeProvider/ThemeProvider";
-import {IUseThemeHook} from "./types/useThemeInterface";
+import {ThemeContext} from "app/providers/ThemeProvider/lib/ThemeContext";
+import {LOCAL_STORAGE_THEME_KEY, TypeTheme} from "../ui/ThemeProvider";
 
-const useTheme = (): IUseThemeHook => {
+export interface ThemeHook {
+  theme: TypeTheme;
+  toggleTheme: () => void;
+}
+
+const useTheme = (): ThemeHook => {
   const {theme, setTheme} = useContext(ThemeContext);
 
   const toggleTheme = () => {

@@ -1,6 +1,11 @@
-import {useMemo, useState} from "react";
-import {ThemeContext} from "../ThemeContext/ThemeContext";
-import {IThemeProvider, TypeTheme} from "./types/themeProviderInterface";
+import {ReactNode, useMemo, useState} from "react";
+import {ThemeContext} from "app/providers/ThemeProvider/lib/ThemeContext";
+
+export type TypeTheme = 'light' | 'dark';
+
+export interface IThemeProvider {
+  children: ReactNode;
+}
 
 export const LOCAL_STORAGE_THEME_KEY = "theme";
 const defaultTheme = localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as TypeTheme || 'light';

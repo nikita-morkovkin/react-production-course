@@ -1,11 +1,10 @@
 import React, {Suspense} from 'react';
 import {Link, Route, Routes} from 'react-router-dom';
-import {Counter} from "./components/Counter/Counter";
-import AboutPageLazy from "./pages/AboutPage/AboutPageLazy";
-import MainPageLazy from "./pages/MainPage/MainPageLazy";
+import {classNames} from "shared/lib/classNames/classNames";
+import useTheme from "./providers/ThemeProvider/lib/useTheme";
 import './styles/index.scss';
-import useTheme from "./components/Theme/UseThemeHook/useTheme";
-import {classNames} from "./helpers/classNames/classNames";
+import {AboutPage} from "pages/AboutPage";
+import {MainPage} from "pages/MainPage";
 
 const App = () => {
   const {theme, toggleTheme} = useTheme();
@@ -14,12 +13,12 @@ const App = () => {
     <div className={classNames('app', {}, [theme])}>
       <h1>React + TS + Webpack</h1>
 
-      <Counter />
       <Link to={'/'}>Главная</Link>
       <Link to={'/about'}>О нас</Link>
 
       <button
         type="button"
+        className={'button-switch'}
         onClick={toggleTheme}
       >
         {theme === 'light' ? 'Switch dark' : 'Switch light'}
@@ -29,12 +28,12 @@ const App = () => {
         <Routes>
           <Route
             path="/about"
-            element={<AboutPageLazy />}
+            element={<AboutPage />}
           />
 
           <Route
             path="/"
-            element={<MainPageLazy />}
+            element={<MainPage />}
           />
         </Routes>
       </Suspense>
