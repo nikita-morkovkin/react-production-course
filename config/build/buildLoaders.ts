@@ -15,18 +15,7 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
     test: /\.s[ac]ss$/i,
     use: [
       isDev ? "style-loader" : MiniCssExtractPlugin.loader,
-      {
-        loader: 'css-loader',
-        options: {
-          modules: {
-            mode: "local",
-            auto: true,
-            localIdentName: isDev
-              ? "[path][name]__[local]"
-              : "[hash__base64:8]"
-          },
-        }
-      },
+      'css-loader',
       "sass-loader",
     ],
   }
