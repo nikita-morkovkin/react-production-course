@@ -1,0 +1,19 @@
+.theme-switcher {
+  padding: 8px;
+  border-radius: 50%;
+  border: 0;
+  transition-duration: 0.3s;
+  cursor: pointer;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+body .dark {
+  .theme-switcher {
+    background-color: black;
+  }
+}
