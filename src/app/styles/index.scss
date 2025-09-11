@@ -29,3 +29,12 @@
     background-color: darkorange;
   }
 }
+
+.content-page {
+  display: flex;
+}
+
+.page-wrapper {
+  flex-grow: 1;
+  margin: 20px;
+}

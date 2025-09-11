@@ -1,0 +1,17 @@
+.sidebar {
+  height: calc(100vh - var(--navbar-height));
+  width: var(--sidebar-width);
+  background: var(--inverted-background-color);
+  position: relative;
+  transition: width 0.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  row-gap: 30px;
+  padding: 5px;
+}
+
+.collapsed {
+  width: var(--sidebar-width-collapsed);
+}
