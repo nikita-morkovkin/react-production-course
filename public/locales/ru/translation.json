@@ -4,5 +4,7 @@
   "aboutLink": "О нас",
   "langSwitcher": "Сменить язык",
   "main": "Главная",
-  "mainLink": "Главная"
+  "mainLink": "Главная",
+  "Sidebar-open": "Скрыть",
+  "Sidebar-closed": "Открыть"
 }

@@ -5,6 +5,26 @@ import {BuildOptions} from "./types/config";
 export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
   const {isDev} = options;
 
+  const babelLoader = {
+    test: /\.(js|jsx|tsx)$/,
+    exclude: /node_modules/,
+    use: {
+      loader: "babel-loader",
+      options: {
+        presets: ['@babel/preset-env'],
+        plugins: [
+          [
+            "i18next-extract",
+            {
+              locales: ['ru', 'en'],
+              keyAdDefaultValue: true,
+            }
+          ],
+        ]
+      }
+    }
+  }
+
   const typescriptLoader = {
     test: /\.tsx?$/,
     use: 'ts-loader',
@@ -38,6 +58,7 @@ export function buildLoaders(options: BuildOptions): webpack.RuleSetRule[] {
   return [
     fileLoader,
     svgrLoader,
+    babelLoader,
     typescriptLoader,
     styleLoader,
   ]

@@ -21,7 +21,7 @@ const Sidebar = ({className}: ISidebarProps) => {
         onClick={onToggle}
         type="button"
       >
-        {t(`ToggleButton`)}
+        {collapsed ? t('Sidebar-closed') : t('Sidebar-open')}
       </button>
 
       <ThemeSwitcher />

@@ -7,5 +7,6 @@ export function buildDevServer(options: BuildOptions): DevServerConfiguration {
     static: options.paths.build,
     port: options.port,
     open: true,
+    hot: true,
   }
 }

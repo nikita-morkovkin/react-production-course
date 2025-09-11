@@ -4,5 +4,7 @@
   "aboutLink": "About Page",
   "langSwitcher": "Change language",
   "main": "Main Page",
-  "mainLink": "Main Page"
+  "mainLink": "Main Page",
+  "Sidebar-open": "Close",
+  "Sidebar-closed": "Open"
 }
