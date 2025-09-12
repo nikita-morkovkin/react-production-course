@@ -27,6 +27,13 @@ export const Navbar = ({className}: INavbarProps) => {
         >
           {t('aboutLink')}
         </AppLink>
+
+        <AppLink
+          to={'error'}
+          theme={AppLinkTheme.PRIMARY}
+        >
+          ERROR
+        </AppLink>
       </div>
     </nav>
   );
