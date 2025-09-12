@@ -8,7 +8,7 @@ import i18next from 'eslint-plugin-i18next';
 export default defineConfig([
   {
     files: ["**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}"],
-    plugins: {js,},
+    plugins: {js},
     extends: [
       "js/recommended",
       i18next.configs['flat/recommended'],
@@ -32,6 +32,7 @@ export default defineConfig([
       'import/extensions': 'off',
       'import/no-extraneous-dependencies': 'off',
       'no-underscore-dangle': 'off',
+      'max-len': ['error', {ignoreComments: true, code: 100}]
     }
   }
 ]);
