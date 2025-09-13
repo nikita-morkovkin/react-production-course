@@ -1,8 +1,7 @@
 import './Sidebar.scss';
-import {classNames} from "shared/lib/classNames/classNames";
 import {useState} from "react";
-import {ThemeSwitcher} from "widgets/ThemeSwitcher";
-import LangSwitcher from "widgets/LangSwitcher/ui/LangSwitcher";
+import ThemeSwitcher from "../../../ThemeSwitcher/ui/ThemeSwitcher";
+import LangSwitcher from "../../../LangSwitcher/ui/LangSwitcher";
 import {useTranslation} from "react-i18next";
 
 interface ISidebarProps {
@@ -16,7 +15,10 @@ const Sidebar = ({className}: ISidebarProps) => {
   const onToggle = () => setCollapsed(!collapsed);
 
   return (
-    <div className={classNames('sidebar', {['collapsed']: collapsed}, [className])}>
+    <div
+      data-testid={'sidebar'}
+      className={`sidebar ${className} ${collapsed ? 'collapsed' : ''}`}
+    >
       <button
         onClick={onToggle}
         type="button"

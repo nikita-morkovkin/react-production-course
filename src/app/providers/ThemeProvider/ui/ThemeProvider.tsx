@@ -1,5 +1,5 @@
 import {ReactNode, useMemo, useState} from "react";
-import {ThemeContext} from "app/providers/ThemeProvider/lib/ThemeContext";
+import {ThemeContext} from "../lib/ThemeContext";
 
 export type TypeTheme = 'light' | 'dark';
 

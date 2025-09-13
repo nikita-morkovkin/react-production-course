@@ -20,6 +20,8 @@
     }
   },
   "include": [
-    "./src/shared/config/jest/setupTests.ts",
-  ]
+    "./config/jest/setupTests.ts",
+    "src/typings.d.ts",
+    "src/widgets"
+  ],
 }

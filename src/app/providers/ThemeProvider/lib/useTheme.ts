@@ -1,5 +1,5 @@
 import {useContext} from "react";
-import {ThemeContext} from "app/providers/ThemeProvider/lib/ThemeContext";
+import {ThemeContext} from "./ThemeContext";
 import {LOCAL_STORAGE_THEME_KEY, TypeTheme} from "../ui/ThemeProvider";
 
 export interface ThemeHook {
