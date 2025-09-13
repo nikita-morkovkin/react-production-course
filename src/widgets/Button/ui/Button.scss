@@ -5,6 +5,11 @@
   border: none;
   outline: none;
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  font-weight: bold;
 
   &:hover {
     background-color: darkorange;
