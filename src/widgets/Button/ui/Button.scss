@@ -1,0 +1,28 @@
+.button {
+  background-color: orange;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  border: none;
+  outline: none;
+  border-radius: 12px;
+
+  &:hover {
+    background-color: darkorange;
+  }
+
+  &--small {
+    padding: 8px;
+  }
+
+  &--medium {
+    padding: 12px;
+  }
+
+  &--large {
+    padding: 16px;
+  }
+
+  &--huge {
+    padding: 24px;
+  }
+}

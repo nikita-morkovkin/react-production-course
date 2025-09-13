@@ -1,12 +1,12 @@
 import React from 'react';
-import {useTranslation} from "react-i18next";
+import {SomeComponent} from "widgets/SomeComponent";
 
 const MainPage = () => {
-  const {t} = useTranslation();
-
   return (
     <div className={'page-wrapper'}>
-      {t('main')}
+      <SomeComponent size={'huge'}>
+        TEXT
+      </SomeComponent>
     </div>
   );
 };

@@ -1,4 +1,3 @@
-import React from 'react';
 import useTheme from "../../../app/providers/ThemeProvider/lib/useTheme";
 import LightIcon from '../../../shared/assets/icons/sun.svg';
 import DarkIcon from '../../../shared/assets/icons/moon.svg';

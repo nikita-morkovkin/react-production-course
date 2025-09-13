@@ -1,0 +1,25 @@
+.some-component {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 30px;
+
+  &--small {
+    padding: 8px;
+  }
+
+  &--medium {
+    padding: 16px;
+  }
+
+  &--large {
+    padding: 24px;
+  }
+
+  &--huge {
+    padding: 36px;
+  }
+}
