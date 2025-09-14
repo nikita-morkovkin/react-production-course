@@ -1,8 +1,3 @@
-/*
- * For a detailed explanation regarding each configuration property and type check, visit:
- * https://jestjs.io/docs/configuration
- */
-
 import path from 'path';
 
 export default {
@@ -26,7 +21,6 @@ export default {
         '<rootDir>src',
     ],
     testMatch: [
-        // Обнаружил разницу между МАК ОС и ВИНДОУС!!!
         '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
     ],
     rootDir: '../../',
