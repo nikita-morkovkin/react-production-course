@@ -1,13 +1,14 @@
 {
-  "Sidebar-closed": "Open",
-  "Sidebar-open": "Close",
-  "Test": "Test example",
-  "about": "About us",
-  "aboutLink": "About Page",
-  "buttonRestart": "Restart website",
-  "error": "Error client",
-  "langSwitcher": "Change language",
-  "main": "Main Page",
-  "mainLink": "Main Page",
-  "notFoundPageText": "Page not found - 404"
+  "Тестовый пример": "Test example",
+  "Перевод": "Translate",
+  "Главная страница": "Main page",
+  "Язык": "English",
+  "новый перевод": "новый перевод",
+  "Страница не найдена": "Page not found",
+  "Произошла непредвиденная ошибка": "Произошла непредвиденная ошибка",
+  "Обновить страницу": "Reload page",
+  "throw error": "throw error",
+  "Главная": "Main",
+  "О сайте": "About us",
+  "Переключить": "Переключить"
 }

@@ -1,14 +1,14 @@
 import React from 'react';
-import {SomeComponent} from "widgets/SomeComponent";
+import { useTranslation } from 'react-i18next';
 
 const MainPage = () => {
-  return (
-    <div className={'page-wrapper'}>
-      <SomeComponent size={'huge'}>
-        TEXT
-      </SomeComponent>
-    </div>
-  );
+    const { t } = useTranslation();
+
+    return (
+        <div>
+            {t('Главная страница')}
+        </div>
+    );
 };
 
 export default MainPage;

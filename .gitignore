@@ -1,5 +1,4 @@
-build
+/build
 node_modules
 .idea
-*storybook.log
-storybook-static
+/storybook-static
