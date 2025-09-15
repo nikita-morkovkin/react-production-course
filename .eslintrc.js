@@ -31,6 +31,7 @@ module.exports = {
             2,
             { extensions: ['.js', '.jsx', '.tsx'] },
         ],
+        'jsx-curly-brace-presence': 'off',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'warn',
@@ -54,6 +55,7 @@ module.exports = {
         'jsx-a11y/no-static-element-interactions': 'off',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'error',
+        'no-param-reassign': 'off',
     },
     globals: {
         __IS_DEV__: true,
