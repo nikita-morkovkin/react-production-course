@@ -12,6 +12,12 @@ const initialState: StateSchema = {
     counter: {
         value: 100,
     },
+    user: {
+        authData: {
+            username: 'Nikita',
+            id: '123434534',
+        },
+    },
 };
 
 render(

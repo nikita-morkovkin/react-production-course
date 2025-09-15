@@ -1,5 +1,8 @@
 {
   "Enter": "Enter",
+  "Enter-password": "Enter-password",
+  "Enter-username": "Enter-username",
+  "Sign-in": "Sign-in",
   "decrement": "decrement",
   "increment": "increment",
   "throw error": "throw error",

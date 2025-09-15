@@ -32,6 +32,7 @@ module.exports = {
             { extensions: ['.js', '.jsx', '.tsx'] },
         ],
         'jsx-curly-brace-presence': 'off',
+        'arrow-body-style': 'never',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'warn',
