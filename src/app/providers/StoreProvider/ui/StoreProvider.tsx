@@ -8,9 +8,17 @@ interface StoreProviderProps {
     initialState?: StateSchema;
 }
 
-const StoreProvider = ({ children, initialState }: StoreProviderProps) => {
+const StoreProvider = ({
+    children,
+    initialState,
+}: StoreProviderProps) => {
     return (
-        <Provider store={createReduxStore(initialState as StateSchema)}>
+        <Provider
+            store={createReduxStore({
+                initialState,
+                isDev: true,
+            })}
+        >
             {children}
         </Provider>
     );

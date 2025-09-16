@@ -9,12 +9,10 @@ interface CreateReduxStoreParams {
     isDev?: boolean;
 }
 
-export const createReduxStore = (params: CreateReduxStoreParams) => {
-    const {
-        initialState,
-        isDev = true,
-    } = params;
-
+export const createReduxStore = ({
+    initialState,
+    isDev,
+}: CreateReduxStoreParams) => {
     const rootReduces: ReducersMapObject<StateSchema> = {
         counter: counterReducer,
         user: userReducer,
