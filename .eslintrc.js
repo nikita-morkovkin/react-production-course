@@ -33,6 +33,8 @@ module.exports = {
         ],
         'jsx-curly-brace-presence': 'off',
         'arrow-body-style': 'off',
+        'linebreak-style': 'off',
+        'consistent-return': 'off',
         'import/no-unresolved': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'warn',

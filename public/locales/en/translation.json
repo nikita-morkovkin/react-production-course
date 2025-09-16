@@ -17,5 +17,7 @@
   "decrement": "DECREMENT",
   "Sign-in": "Sign in",
   "Enter-username": "Enter username",
-  "Enter-password": "Enter password"
+  "Enter-password": "Enter password",
+  "AuthForm": "Auth Form",
+  "Exit": "Exit"
 }
