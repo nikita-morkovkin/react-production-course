@@ -20,7 +20,7 @@ const MainPage = () => {
             <Input
                 onChange={onChange}
                 value={value}
-                placeholder="Введите текст"
+                placeholder={t('White-text')}
             />
         </div>
     );

@@ -3,5 +3,5 @@ import { Counter } from './ui/Counter';
 import { counterReducer, counterSlice } from './model/slice/counterSlice';
 
 export {
-    Counter, CounterSchema, counterSlice, counterReducer
+    Counter, CounterSchema, counterSlice, counterReducer,
 };
