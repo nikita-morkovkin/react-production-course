@@ -38,8 +38,8 @@ const DynamicModuleLoader: FC<DynamicModuleLoaderProps> = (props) => {
                     dispatch({ type: `@DESTROY ${reducerKey} reducer unmount` });
                 });
             };
-            // eslint-disable-next-line
         }
+        // eslint-disable-next-line
     }, []);
 
     return (
