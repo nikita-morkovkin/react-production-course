@@ -29,6 +29,13 @@
     }
   ],
   "profile": {
-    "name": "typicode"
+    "firstname": "Никита",
+    "lastname": "Морковкин",
+    "age": 17,
+    "currency": "RUB",
+    "country": "Russia",
+    "city": "Moscow",
+    "username": "admin",
+    "avatar": "https://ru.pinterest.com/pin/363454632449178960/"
   }
 }

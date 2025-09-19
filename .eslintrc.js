@@ -36,6 +36,7 @@ module.exports = {
         'linebreak-style': 'off',
         'consistent-return': 'off',
         'jsx-wrap-multilines': 'off',
+        'no-redeclare': 'off',
         'react/jsx-closing-tag-location': 'off',
         'react/jsx-wrap-multilines': 'off',
         'import/no-unresolved': 'off',
