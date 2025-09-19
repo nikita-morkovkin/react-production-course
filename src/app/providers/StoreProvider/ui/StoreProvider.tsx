@@ -13,11 +13,10 @@ const StoreProvider = ({
     initialState,
 }: StoreProviderProps) => {
     return (
-        <Provider
-            store={createReduxStore({
-                initialState,
-                isDev: true,
-            })}
+        <Provider store={createReduxStore({
+            initialState,
+            isDev: true,
+        })}
         >
             {children}
         </Provider>

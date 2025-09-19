@@ -21,14 +21,14 @@ const initialState: StateSchema = {
 };
 
 render(
-    <StoreProvider initialState={initialState}>
-        <BrowserRouter>
+    <BrowserRouter>
+        <StoreProvider initialState={initialState}>
             <ErrorBoundary>
                 <ThemeProvider>
                     <App />
                 </ThemeProvider>
             </ErrorBoundary>
-        </BrowserRouter>
-    </StoreProvider>,
+        </StoreProvider>
+    </BrowserRouter>,
     document.getElementById('root'),
 );
