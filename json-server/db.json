@@ -1,41 +1,38 @@
 {
   "posts": [
     {
-      "id": 1,
-      "body": "json-server",
-      "author": "typicode"
+      "id": "1",
+      "title": "json-server",
+      "userId": "1"
     },
     {
-      "id": 2,
-      "body": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 3,
-      "body": "json-server",
-      "author": "typicode"
-    },
-    {
-      "id": 4,
-      "body": "json-server",
-      "author": "typicode"
+      "id": "2",
+      "title": "json-server",
+      "userId": "2"
     }
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "json-server",
-      "postId": 1
+      "id": "1",
+      "body": "some comment",
+      "postId": "1"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "123"
     }
   ],
   "profile": {
-    "firstname": "Никита",
-    "lastname": "Морковкин",
-    "age": 17,
+    "first": "Тимур1211",
+    "lastname": "Ульби211",
+    "age": 2211,
     "currency": "RUB",
-    "country": "Russia",
+    "country": "Belarus",
     "city": "Moscow",
-    "username": "admin",
-    "avatar": "https://ru.pinterest.com/pin/363454632449178960/"
+    "username": "admin213",
+    "avatar": "https://yt3.ggpht.com/ytc/AAUvwngFzM_Rf6MNwOnFcuphoj93k7VFjlIrj-kSMxbh=s900-c-k-c0x00ffffff-no-rj"
   }
 }

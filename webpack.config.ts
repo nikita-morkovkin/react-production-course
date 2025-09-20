@@ -22,7 +22,7 @@ export default (env: BuildEnv) => {
         paths,
         isDev,
         port: PORT,
-        apiUrl: apiUrl,
+        apiUrl,
     });
 
     return config;

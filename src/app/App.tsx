@@ -1,10 +1,9 @@
+import React, { Suspense, useEffect } from 'react';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { useTheme } from 'app/providers/ThemeProvider';
 import { AppRouter } from 'app/providers/router';
-import { Sidebar } from 'widgets/Sidebar';
 import { Navbar } from 'widgets/Navbar';
-import { Suspense, useEffect } from 'react';
-import './styles/index.scss';
+import { Sidebar } from 'widgets/Sidebar';
 import { useDispatch } from 'react-redux';
 import { userActions } from 'entities/User';
 
@@ -13,7 +12,7 @@ function App() {
     const dispatch = useDispatch();
 
     useEffect(() => {
-        dispatch(userActions.initAuthData);
+        dispatch(userActions.initAuthData());
     }, [dispatch]);
 
     return (
