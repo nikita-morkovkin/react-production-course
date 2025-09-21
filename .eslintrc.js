@@ -32,6 +32,7 @@ module.exports = {
             { extensions: ['.js', '.jsx', '.tsx'] },
         ],
         'import/no-unresolved': 'off',
+        'arrow-body-style': 'off',
         'import/prefer-default-export': 'off',
         'no-unused-vars': 'off',
         'react/require-default-props': 'off',
