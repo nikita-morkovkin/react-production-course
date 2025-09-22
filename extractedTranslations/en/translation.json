@@ -1,5 +1,7 @@
 {
   "": "",
+  "ArticleNotFound": "ArticleNotFound",
+  "ErrorLoadingArticle": "ErrorLoadingArticle",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
     " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
       "": ""
@@ -38,6 +40,7 @@
   "Профиль": "Профиль",
   "Редактировать": "Редактировать",
   "Сохранить": "Сохранить",
+  "Статья не была загружена": "Статья не была загружена",
   "Страница не найдена": "Страница не найдена",
   "Укажите валюту": "",
   "Укажите страну": "",
