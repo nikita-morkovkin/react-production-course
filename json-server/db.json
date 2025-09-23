@@ -87,47 +87,73 @@
   "comments": [
     {
       "id": "1",
-      "text": "some comment",
+      "text": "some comment from me",
       "articleId": "1",
-      "userId": "1"
+      "userId": "1",
+      "avatar": "https://i.pinimg.com/736x/2d/34/81/2d348146cc1caa5010f0f7f51783aff2.jpg"
+
     },
     {
       "id": "2",
       "text": "some comment 2",
       "articleId": "1",
-      "userId": "1"
+      "userId": "2",
+      "avatar": "https://i.pinimg.com/736x/2d/34/81/2d348146cc1caa5010f0f7f51783aff2.jpg"
     },
     {
       "id": "3",
       "text": "some comment 3",
       "articleId": "1",
-      "userId": "1"
+      "userId": "3",
+      "avatar": "https://i.pinimg.com/736x/d6/04/be/d604be1119e5f539b53ebacb0d6dad9e.jpg"
     }
   ],
   "users": [
     {
       "id": "1",
       "username": "admin",
-      "password": "123",
+      "password": "Nikita Morkovkin",
       "role": "ADMIN",
-      "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
+      "avatar": "https://i.pinimg.com/736x/d6/04/be/d604be1119e5f539b53ebacb0d6dad9e.jpg"
     },
     {
       "id": "2",
       "username": "user",
-      "password": "123",
+      "password": "Alice Morino",
       "role": "USER",
-      "avatar": "https://xakep.ru/wp-content/uploads/2018/05/171485/KuroiSH-hacker.jpg"
+      "avatar": "https://i.pinimg.com/736x/2d/34/81/2d348146cc1caa5010f0f7f51783aff2.jpg"
+    },
+    {
+      "id": "3",
+      "username": "user",
+      "password": "Kiwi Araga",
+      "role": "USER",
+      "avatar": "https://i.pinimg.com/736x/2d/34/81/2d348146cc1caa5010f0f7f51783aff2.jpg"
     }
   ],
-  "profile": {
-    "first": "Nikita",
-    "lastname": "Morkovkin",
-    "age": 17,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Moscow",
-    "username": "admin",
-    "avatar": "https://avatars.mds.yandex.net/get-zen_doc/3413519/pub_5ff887b2fe4e686f6ae6ba3f_5ff887d7f906b16872a69755/scale_1200"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Nikita",
+      "lastname": "Morkovkin",
+      "age": 17,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "admin",
+      "avatar": "https://i.pinimg.com/1200x/06/14/ce/0614ce1e0a0d3caa5547bd99b72c78bd.jpg"
+    },
+
+    {
+      "id": "2",
+      "first": "Alice",
+      "lastname": "In the wonderful country",
+      "age": 17,
+      "currency": "RUB",
+      "country": "Belarus",
+      "city": "Unknown",
+      "username": "admin",
+      "avatar": "https://i.pinimg.com/1200x/f8/a0/64/f8a0649a2df5af9cdf0935ec1c045743.jpg"
+    }
+  ]
 }

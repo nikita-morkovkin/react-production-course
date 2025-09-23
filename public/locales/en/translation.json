@@ -24,5 +24,7 @@
   "Укажите страну": "Choose country",
   "Профиль": "Profile",
   "Статья не найдена": "Article wasn't found",
-  "Статья не была загружена": "Article wasn't loaded"
+  "Статья не была загружена": "Article wasn't loaded",
+  "Комментарий": "Comments",
+  "Нет комментариев": "No comments"
 }
