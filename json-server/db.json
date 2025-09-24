@@ -91,7 +91,6 @@
       "articleId": "1",
       "userId": "1",
       "avatar": "https://i.pinimg.com/736x/2d/34/81/2d348146cc1caa5010f0f7f51783aff2.jpg"
-
     },
     {
       "id": "2",
@@ -106,6 +105,18 @@
       "articleId": "1",
       "userId": "3",
       "avatar": "https://i.pinimg.com/736x/d6/04/be/d604be1119e5f539b53ebacb0d6dad9e.jpg"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Привет, медведь, как дела?",
+      "id": "skdCbbq"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "привет, медведь, как дела?",
+      "id": "qncyGq9"
     }
   ],
   "users": [
@@ -143,7 +154,6 @@
       "username": "admin",
       "avatar": "https://i.pinimg.com/1200x/06/14/ce/0614ce1e0a0d3caa5547bd99b72c78bd.jpg"
     },
-
     {
       "id": "2",
       "first": "Alice",
