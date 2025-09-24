@@ -3,14 +3,7 @@ import AboutIcon from 'shared/assets/icons/about-20-20.svg';
 import MainIcon from 'shared/assets/icons/main-20-20.svg';
 import ProfileIcon from 'shared/assets/icons/profile-20-20.svg';
 import ArticlesIcon from 'shared/assets/icons/articles.svg';
-import { SVGProps, VFC } from 'react';
-
-export interface SidebarItemType {
-    path: string;
-    text: string;
-    Icon: VFC<SVGProps<SVGSVGElement>>;
-    authOnly?: boolean;
-}
+import { SidebarItemType } from '../types/sidebar';
 
 export const SidebarItemsList: SidebarItemType[] = [
     {
