@@ -20,7 +20,10 @@ const reducers: ReducersList = {
 };
 
 const AddCommentForm = memo((props: AddCommentFormProps) => {
-    const { className, onSendComment } = props;
+    const {
+        className,
+        onSendComment,
+    } = props;
     const { t } = useTranslation();
     const text = useSelector(getAddCommentFormText);
     const error = useSelector(getAddCommentFormError);
@@ -32,8 +35,7 @@ const AddCommentForm = memo((props: AddCommentFormProps) => {
 
     const onSendHandler = useCallback(() => {
         onSendComment(text as string);
-        onCommentTextChangeHandler('');
-    }, [onCommentTextChangeHandler, onSendComment, text]);
+    }, [onSendComment, text]);
 
     return (
         <DynamicModuleLoader reducers={reducers}>

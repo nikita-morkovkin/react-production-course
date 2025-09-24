@@ -17,11 +17,11 @@ export const addCommentForArticle = createAsyncThunk<
             extra,
             rejectWithValue,
             getState,
+            dispatch,
         } = thunkApi;
 
         const userData = getUserAuthData(getState());
         const article = getArticleDetailsData(getState());
-        const dispatch = useAppDispatch();
 
         if (!userData || !article || !text) {
             return rejectWithValue('error');
