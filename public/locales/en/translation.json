@@ -30,5 +30,6 @@
   "Добавить комментарий": "Add new comment",
   "Отправить комментарий": "Send the comment",
   "Читать далее": "Read more",
-  "Назад к списку": "Go back to list"
+  "Назад к списку": "Go back to list",
+  "Ошибка загрузки статей": "Error with trying load articles"
 }
