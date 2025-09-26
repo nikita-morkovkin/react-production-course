@@ -34,6 +34,7 @@
   .infoWrapper {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   }
 
   .types p {
@@ -50,6 +51,12 @@
 
   .title {
     margin-top: 8px;
+  }
+
+  .viewsElements {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .title p {

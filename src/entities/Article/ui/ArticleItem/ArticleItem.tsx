@@ -9,9 +9,9 @@ import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { RoutePath } from 'shared/config/routeConfig/routeConfig';
-import cls from './ArticleItem.module.scss';
 import { Article, ArticleBlockText, ArticleView } from '../../model/types/article';
 import { ArticleBlockTextComponent } from '../ArticleBlockTextComponent/ArticleBlockTextComponent';
+import cls from './ArticleItem.module.scss';
 
 interface ArticleItemProps {
     className?: string;
