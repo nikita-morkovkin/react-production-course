@@ -6,7 +6,7 @@ import {
     getArticlesPageHasMore,
     getArticlesPageIsLoading,
     getArticlesPageNumber,
-} from '../../selectors/articlesPageSelector';
+} from '../../selectors/articlesPageSelectors';
 
 export const fetchNextArticlesPage = createAsyncThunk<void, void, ThunkConfig<string>>(
     'articlesPage/fetchNextArticlesPage',

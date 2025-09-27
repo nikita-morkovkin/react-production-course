@@ -40,6 +40,7 @@ export const ArticleViewSwitcher = memo((props: ArticleViewSwitcherProps) => {
                     className={classNames(cls.changeButton, { [cls.notSelected]: viewType.view !== view }, [])}
                     theme={ButtonTheme.CLEAR}
                     onClick={onClick(viewType.view)}
+                    key={viewType.view}
                 >
                     <Icon
                         SvgComponent={viewType.icon}
