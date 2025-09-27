@@ -11,10 +11,12 @@ import { ArticleDetailsSchema } from 'entities/Article';
 import { ArticleDetailsCommentsSchema } from 'pages/ArticleDetailsPage';
 import { AddCommentFormSchema } from 'features/addCommentForm';
 import { ArticlesPageSchema } from 'pages/ArticlesPage';
+import { ScrollReturnSchema } from 'features/scrollReturn';
 
 export interface StateSchema {
     counter: CounterSchema;
     user: UserSchema;
+    scroll: ScrollReturnSchema;
 
     // Асинхронные редюсеры
     loginForm?: LoginSchema;

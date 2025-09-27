@@ -4,7 +4,7 @@ import { AboutPage } from 'pages/AboutPage';
 import { Page } from './Page';
 
 export default {
-    title: 'shared/Page',
+    title: 'widgets/Page',
     component: Page,
     argTypes: {
         backgroundColor: { control: 'color' },

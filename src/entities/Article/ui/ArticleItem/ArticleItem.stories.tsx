@@ -1,4 +1,5 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
+import { ArticleView } from 'entities/Article';
 import { ArticleItem } from './ArticleItem';
 
 export default {
@@ -12,4 +13,6 @@ export default {
 const Template: ComponentStory<typeof ArticleItem> = (args) => <ArticleItem {...args} />;
 
 export const Normal = Template.bind({});
-Normal.args = {};
+Normal.args = {
+    view: ArticleView.SMALL,
+};
