@@ -31,5 +31,18 @@
   "Отправить комментарий": "Send the comment",
   "Читать далее": "Read more",
   "Назад к списку": "Go back to list",
-  "Ошибка загрузки статей": "Error with trying load articles"
+  "Ошибка загрузки статей": "Error with trying load articles",
+  "Сортировать ПО": "Sort BY",
+  "Поиск": "Search",
+  "по": "by",
+  "возрастанию": "ascending order",
+  "убыванию": "descending order",
+  "дате создания": "created time",
+  "названию": "name",
+  "кол-ву просмотров": "views",
+  "Все статьи": "All articles",
+  "Айти": "IT",
+  "Экономика": "Economics",
+  "Наука": "Science",
+  "Статьи не были найдены": "Articles weren't found"
 }

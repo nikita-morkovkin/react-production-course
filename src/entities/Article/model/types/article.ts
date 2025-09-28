@@ -5,6 +5,12 @@ export enum ArticleView {
     SMALL = 'SMALL',
 }
 
+export enum ArticleSortField {
+    VIEWS = 'views',
+    TITLE = 'title',
+    CREATED = 'created',
+}
+
 export enum ArticleBlockType {
     CODE = 'CODE',
     TEXT = 'TEXT',
@@ -36,6 +42,7 @@ export interface ArticleBlockText extends ArticleBlockBase {
 export type ArticleBlock = ArticleBlockCode | ArticleBlockImage | ArticleBlockText;
 
 export enum ArticleType {
+    ALL = 'ALL',
     IT = 'IT',
     SCIENCE = 'SCIENCE',
     ECONOMICS = 'ECONOMICS',

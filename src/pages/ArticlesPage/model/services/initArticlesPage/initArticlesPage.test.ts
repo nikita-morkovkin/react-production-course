@@ -1,5 +1,5 @@
 import { TestAsyncThunk } from 'shared/lib/tests/TestAsyncThunk/TestAsyncThunk';
-import { ArticleView } from 'entities/Article';
+import { ArticleSortField, ArticleView } from 'entities/Article';
 import { initArticlesPage } from './initArticlesPage';
 
 describe('initArticlesPage.test', () => {
@@ -15,11 +15,16 @@ describe('initArticlesPage.test', () => {
                 hasMore: false,
                 view: ArticleView.BIG,
                 _inited: false,
+                search: '',
+                sort: ArticleSortField.CREATED,
+                order: 'asc',
             },
         });
 
-        await thunk.callThunk();
-        expect(thunk.dispatch).toBeCalledTimes(4);
+        const searchParams = new URLSearchParams();
+
+        await thunk.callThunk(searchParams);
+        expect(thunk.dispatch).toBeCalledTimes(5);
     });
     test('initArticlesPage should not call anything if already inited', async () => {
         const thunk = new TestAsyncThunk(initArticlesPage, {
@@ -28,7 +33,9 @@ describe('initArticlesPage.test', () => {
             },
         });
 
-        await thunk.callThunk();
+        const searchParams = new URLSearchParams();
+
+        await thunk.callThunk(searchParams);
         expect(thunk.dispatch).toBeCalledTimes(2);
     });
 });

@@ -91,7 +91,7 @@
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnCiOKkw6OG2c-WBCtfupZYPKZqK6R7J-JNw&s",
       "views": 8644,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.07.2024",
       "type": [
         "IT"
       ],
@@ -379,7 +379,7 @@
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.01.2034",
       "type": [
         "IT"
       ],
@@ -451,7 +451,7 @@
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.06.2021",
       "type": [
         "IT"
       ],
@@ -590,12 +590,12 @@
     },
     {
       "id": "9",
-      "title": "Tailwind CSS news",
+      "title": "CSS news",
       "subtitle": "Что нового в Tailwind CSS за 2025 год?",
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.02.2020",
       "type": [
         "IT"
       ],
@@ -662,7 +662,7 @@
     },
     {
       "id": "10",
-      "title": "Tailwind CSS news",
+      "title": "React Hook form news",
       "subtitle": "Что нового в Tailwind CSS за 2025 год?",
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
@@ -806,12 +806,12 @@
     },
     {
       "id": "12",
-      "title": "Tailwind CSS news",
+      "title": "Vite news",
       "subtitle": "Что нового в Tailwind CSS за 2025 год?",
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.02.2002",
       "type": [
         "IT"
       ],
@@ -1022,14 +1022,14 @@
     },
     {
       "id": "15",
-      "title": "Tailwind CSS news",
+      "title": "Webpack news",
       "subtitle": "Что нового в Tailwind CSS за 2025 год?",
       "img": "https://images.icon-icons.com/2699/PNG/512/tailwindcss_logo_icon_170649.png",
       "views": 4040,
       "userId": "1",
-      "createAt": "26.02.2022",
+      "createAt": "26.02.2012",
       "type": [
-        "IT"
+        "ECONOMICS"
       ],
       "blocks": [
         {
@@ -1101,7 +1101,7 @@
       "userId": "1",
       "createAt": "26.02.2022",
       "type": [
-        "IT"
+        "SCIENCE"
       ],
       "blocks": [
         {
